@@ -1,9 +1,12 @@
 #!/bin/sh
 
 # Modify according to your environnement
-TALEND_DIR="${HOME}/TOS_DI-r95165-V5.2.1"
-TALEND_BIN="${TALEND_DIR}/TOS_DI-linux-gtk-x86_64"
+#TALEND_DIR="${HOME}/TOS_DI-r95165-V5.2.1"
+TALEND_DIR="${HOME}/TOS_BD-20170623_1246-V6.4.1"
 
+#TALEND_BIN="${TALEND_DIR}/TOS_DI-linux-gtk-x86_64"
+TALEND_BIN="${TALEND_DIR}/TOS_BD-linux-gtk-x86_64"
+echo Talend Dir: ${TALEND_DIR}
 exit_error(){
     msg_error "${1}"
     exit 1
